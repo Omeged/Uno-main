@@ -1,0 +1,30 @@
+#pane{
+	-fx-background-image: url("images/uno_bg.png");
+	-fx-background-size: cover, auto;
+	-fx-font-family: 'Arial', sans-serif;
+	-fx-font-weight: bold;
+	-fx-font-size: 16px;
+}
+.playerStatus{
+	-fx-pref-width: 142px;
+	-fx-pref-height: 113px;
+	-fx-background-image: url("images/player_status.png");
+	-background-color: red;
+}
+.colorButton{
+	-fx-text-fill: white;
+	-fx-font-size: 25pt;
+	-fx-min-width: 150px;
+}
+.redButton{
+	-fx-background-color: #cc473f;
+}
+.blueButton{
+	-fx-background-color: #3f48cc;
+}
+.greenButton{
+	-fx-background-color: #4acc3f;
+}
+.yellowButton{
+	-fx-background-color: #ddcd2e;
+}
